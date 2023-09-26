@@ -1,0 +1,49 @@
+@media print {
+    .print-content {
+        page-break-inside: avoid;
+    }
+
+    @page {
+        margin: 50px;
+    }
+
+    @page {
+        size: auto;
+        margin: 0;
+    }
+
+    body::after {
+        content: none !important;
+    }
+}
+
+
+/* @media print {
+    body::after {
+            content: none !important;
+        }
+}
+
+
+
+.print-content2 {
+    page-break-before: always;
+}
+
+@page {
+    margin: 50px;
+} */
+
+
+@page {
+    size: auto;
+    margin: 0;
+}
+ @page {
+     margin: 50px;
+ }
+ body::after {
+     content: none ;
+}
+
+

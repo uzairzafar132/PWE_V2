@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "14.17.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-fetch": "^3.1.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.43",
+    "mongoose": "^6.0.9",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.2",
+    "nodemon": "^2.0.12",
+    "pdfkit-table": "^0.1.99",
+    "react-meta-tags": "^1.0.1",
+    "react-toggle": "^4.1.2",
+    "request": "^2.88.2",
+    "superagent": "^8.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
